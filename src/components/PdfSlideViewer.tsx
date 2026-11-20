@@ -674,11 +674,11 @@ export function PdfSlideViewer({
               Terima Kasih
             </h2>
 
-            <p className="mt-2.5 text-sm font-medium text-[#FAF4EA]/90">
+            <p className="mt-2.5 text-sm font-medium tracking-wide text-[#FAF4EA]/90">
               Sekolah Kebangsaan Abdul Samat
             </p>
-            <p className="mt-1 text-xs tracking-wider text-[#E6C27A]/75">
-              Anugerah Bintang PBD Tahap 1 2026 · 23 November 2026
+            <p className="mt-1 text-xs tracking-[0.14em] text-[#E6C27A]/80">
+              23 November 2026
             </p>
 
             <div className="my-5 h-px w-full bg-gradient-to-r from-transparent via-[#E6C27A]/35 to-transparent" />

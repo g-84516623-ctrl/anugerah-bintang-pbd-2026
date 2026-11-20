@@ -160,14 +160,15 @@ export function CurtainOpening({ isOpening, onOpen, pdfReady }: CurtainOpeningPr
             <span className="relative whitespace-nowrap">BUKA BUKU PROGRAM</span>
           </button>
 
-          {/* Small Event Title Underneath */}
-          <p className="mt-5 text-xs leading-relaxed tracking-wider text-[#FAF4EA]/80 sm:text-sm">
-            Sekolah Kebangsaan Abdul Samat
-            <span className="mx-2 text-[#E6C27A]/70" aria-hidden="true">
-              ·
-            </span>
-            23 November 2026
-          </p>
+          {/* Small Event Title Underneath (Two lines: School above, Date below) */}
+          <div className="mt-5 flex flex-col items-center gap-1 text-center">
+            <p className="text-xs font-medium tracking-[0.12em] text-[#FAF4EA]/90 sm:text-sm">
+              Sekolah Kebangsaan Abdul Samat
+            </p>
+            <p className="text-xs tracking-[0.14em] text-[#E6C27A]/85 sm:text-sm">
+              23 November 2026
+            </p>
+          </div>
 
           <p className="mt-2 h-4 text-[11px] tracking-wide text-[#E6C27A]/65">
             {pdfReady ? '' : 'Memuatkan halaman buku program...'}
